@@ -1,0 +1,22 @@
+{
+  "name": "qr-generator",
+  "version": "1.0.0",
+  "description": "Script to generate massive QR",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcmontseny/qr-generator.js.git"
+  },
+  "author": "Marc Casamitjana i Montseny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcmontseny/qr-generator.js/issues"
+  },
+  "homepage": "https://github.com/mcmontseny/qr-generator.js#readme",
+  "dependencies": {
+    "qrcode-svg": "^1.1.0"
+  }
+}
