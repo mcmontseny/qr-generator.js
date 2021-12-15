@@ -4,7 +4,8 @@
   "description": "Script to generate massive QR",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js",
+    "generate-docs": "jsdoc ./main.js"
   },
   "repository": {
     "type": "git",

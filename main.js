@@ -61,7 +61,7 @@ const generateQR = ({ content, outFileName }, generatorConf) => {
 }
 
 /**
- * Función que genera el código QR a través de su contenido y objeto de configuración
+ * Función que genera el código QR a través de su contenido y objeto de configuración.
  * En la llamada de la función se añade el campo content (Contenido QR) al objeto de configuración
  * 
  * @param {any} generatorConf - Objeto de configuración para el generador + contenido del QR
@@ -70,11 +70,12 @@ const generateQR = ({ content, outFileName }, generatorConf) => {
 const drawQR = generatorConf => new QRCode(generatorConf);
 
 /**
- * Función que guarda el código QR en el path indicado
+ * Función que guarda el código QR en el path indicado.
  * Concatena el path de salida + nombre del fichero + extensión
  * 
  * @param {QRCode} qr - Objeto del tipo QRCode. (Contiene el QR ya generado)
  * @param {any} fileName - Nombre del fichero con el que guardaremos el QR
+ * @throws {error} - Devolución de un error si no podemos guardar el código
  */
 const saveQR = (qr, fileName) => {
 	const outPath = `${OUTPUT_SRC}${fileName}${FORMAT_FILE}`;
