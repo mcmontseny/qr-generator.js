@@ -1,2 +1,2 @@
 # qr-generator.js
-Script to generate QR's
+Script en JS para generar códigos QR de forma masiva 🛠️
